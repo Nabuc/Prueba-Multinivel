@@ -1,1 +1,4 @@
-public void Proyecto { int b; }
+public void Proyecto {
+  int b;
+  calcular arancel();
+}
