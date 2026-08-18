@@ -13,4 +13,9 @@ public class Mago {
     System.out.println(nombre + " ha lanzado un hechizo de fuego.");
     this.nivelMagia -= 10;
   }
+  // Segundo método
+  public void meditar() {
+    this.nivelMagia += 20;
+    System.out.println(nombre + " recupera magia. Nivel actual: " + nivelMagia);
+  }
 }
